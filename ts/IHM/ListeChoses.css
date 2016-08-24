@@ -1,0 +1,7 @@
+liste-choses > section > chose:nth-child(odd)  > *{
+	background	: lightgrey;
+}
+
+liste-choses > section > chose:nth-child(even) > * {
+	background	: white;
+}

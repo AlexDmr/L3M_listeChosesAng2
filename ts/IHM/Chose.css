@@ -1,0 +1,18 @@
+section.chose {
+	display 		: flex;
+	flex-flow 		: row; 
+}
+
+section.chose:hover {
+	background		: lightyellow; 
+}
+
+
+section.chose:hover > button.remove {
+	display		: initial; 
+	transform	: scale(2);
+}
+
+section.chose > button.remove {
+	display 	: none; 
+}
