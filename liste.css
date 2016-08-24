@@ -1,3 +1,19 @@
 body {
 	background: white;
 }
+
+form > input {
+	width: 100%;
+}
+
+section.chose:hover  {
+	background: yellow;
+}
+
+section.chose > input[type=text]:hover {
+	background: lightgreen;
+}
+
+section.chose > button:hover  {
+	background: red;
+}
